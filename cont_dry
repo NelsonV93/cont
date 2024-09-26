@@ -39,14 +39,14 @@
                     </sts:SoftwareProvider>
                     <sts:SoftwareSecurityCode schemeAgencyID="195"
                         schemeAgencyName="CO, DIAN (Direcci&#243;n de Impuestos y Aduanas Nacionales)">
-                        d40f665d0b730f844a9b9a3c0a09893eddbf69b36600303012f4391d2da4f648b8935a7a62e5b6799d6a3f011120222f</sts:SoftwareSecurityCode>
+                        1df77f8ecb822af86118a4d458a70795954141baa8e9ef4fb2591443e6280fe1f03599959aad6fd672fc532f20d3854f</sts:SoftwareSecurityCode>
                     <sts:AuthorizationProvider>
                         <sts:AuthorizationProviderID schemeAgencyID="195"
                             schemeAgencyName="CO, DIAN (Direcci&#243;n de Impuestos y Aduanas Nacionales)"
                             schemeID="4" schemeName="31">800197268</sts:AuthorizationProviderID>
                     </sts:AuthorizationProvider>
                     <sts:QRCode>
-                        https://catalogo-vpfe.dian.gov.co/document/searchqr?documentkey=ee89d9a2d503a69528ba999502556c4006153515277b76fdc99b00ba0bea4342ddb370430b8b9aca492cf675ee5f75a7</sts:QRCode>
+                        https://catalogo-vpfe.dian.gov.co/document/searchqr?documentkey=6bca40d060076097518839513928a5d0245fb4ff20022debe29781681e0a9ad91c54b442f48a9e9f9c745b9db864cc6c</sts:QRCode>
                 </sts:DianExtensions>
             </ext:ExtensionContent>
         </ext:UBLExtension>
@@ -85,14 +85,17 @@
                         <Name>PlacaCaja</Name>
                         <Value>Dev1</Value>
                         <Name>Ubicaci&#243;nCaja</Name>
-                        <Value>DRYREFOR SAS\nCalle 38B 26E - 10\n\nMEDELL&#205;N Antioquia
-                            \nColombia</Value>
+                        <Value>DRYREFOR SAS
+                            Calle 38B 26E - 10
+
+                            MEDELL&#205;N Antioquia
+                            Colombia</Value>
                         <Name>Cajero</Name>
                         <Value>nombre del cajero</Value>
                         <Name>TipoCaja</Name>
                         <Value>Caja de apoyo</Value>
                         <Name>C&#243;digoVenta</Name>
-                        <Value>Orden 04202-002-0101</Value>
+                        <Value>Orden 04204-001-0009</Value>
                         <Name>SubTotal</Name>
                         <Value>1000100.00</Value>
                     </InformacionCajaVenta>
@@ -102,33 +105,33 @@
         <ext:UBLExtension>
             <ext:ExtensionContent>
                 <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
-                    Id="xmldsig-9ed591a9-8e6c-4780-a33f-21997d0680dc">
+                    Id="xmldsig-5c83ba2a-8bac-44b6-aeab-70fb50c46180">
                     <ds:SignedInfo>
                         <ds:CanonicalizationMethod
                             Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
                         <ds:SignatureMethod
                             Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
-                        <ds:Reference Id="xmldsig-9ed591a9-8e6c-4780-a33f-21997d0680dc-ref0" URI="">
+                        <ds:Reference Id="xmldsig-5c83ba2a-8bac-44b6-aeab-70fb50c46180-ref0" URI="">
                             <ds:Transforms>
                                 <ds:Transform
                                     Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
                             </ds:Transforms>
                             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-                            <ds:DigestValue>YoAW2yh7nthuZ9iHaISC15J3EdQ7nu26mxdgT+i6Py8=</ds:DigestValue>
+                            <ds:DigestValue>v2rDx4HmvEpjSEXv24qci8IKIeLVIphd0OcePulrRIw=</ds:DigestValue>
                         </ds:Reference>
-                        <ds:Reference URI="#xmldsig-2a08a664-f467-46e4-943c-62aafdee96d8-keyinfo">
+                        <ds:Reference URI="#xmldsig-25873529-6b69-48e4-9c48-b619b1a14578-keyinfo">
                             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-                            <ds:DigestValue>VVrAqFm+Qqtnn8j8YC7aTLx+NtYtHWWNxd/5ZFv3L4o=</ds:DigestValue>
+                            <ds:DigestValue>AZyJw02J4Kv5+oISJLl1pOX2SXWZ30De/X+rYoK6ctk=</ds:DigestValue>
                         </ds:Reference>
                         <ds:Reference Type="http://uri.etsi.org/01903#SignedProperties"
-                            URI="#xmldsig-9ed591a9-8e6c-4780-a33f-21997d0680dc-signedprops">
+                            URI="#xmldsig-5c83ba2a-8bac-44b6-aeab-70fb50c46180-signedprops">
                             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-                            <ds:DigestValue>UOnADf2yo0RQHdRYuyv7bPwus2qpXYVXrwfkVPS3RXY=</ds:DigestValue>
+                            <ds:DigestValue>H8S0jhoAESIiRq9wp2f1niACw60g+wTBXUEpfErJUuE=</ds:DigestValue>
                         </ds:Reference>
                     </ds:SignedInfo>
-                    <ds:SignatureValue Id="xmldsig-9ed591a9-8e6c-4780-a33f-21997d0680dc-sigvalue">
-                        RjPamdEvjjLWQYbXZ/yi0Lk5rAvM7KM4WE5FhBtNe3frnuT6vk1l4KKfMRzwicb9Vk3Qa8Not1X3cGBWLYsPcnSZ4lsu1dx6ImhMh7ugk6e86g4nmzrooKj7bKoSwPjRynzz5lk+O2C/8fEBIW6FQm05Q3bOzUMrOFzwn4RqWF9vENsYLj+LPueiOYbSbtAb6pRSxA1w/t4mCHKMxfR4s3fnW+TG735pTS7O6wbMOp4ytc50Kjvn5ibVOLGl1YePl9HxHvVRk6rHQP4txPnabnXm+nR8k3Ps7grrB1cBimKUY6o4KoEbiJm2K1RO/MR5jS6Xp33mbkIC3ntPjGeghQ==</ds:SignatureValue>
-                    <ds:KeyInfo Id="xmldsig-2a08a664-f467-46e4-943c-62aafdee96d8-keyinfo">
+                    <ds:SignatureValue Id="xmldsig-5c83ba2a-8bac-44b6-aeab-70fb50c46180-sigvalue">
+                        Tw7ZqxX78r65mcfPHsFntue6EpJfrjQrAqUe1icuMlRl3nioYEJ6lsF6mgTrNSqhvxowPdh83O2GoqyzsYKbk7q3qgKWzKP8fnV4TOJaKbLv4EzQVociqPeuWwMOUomjQpWt9VvHqeFFIuuXLiLaFPQOna0f5TZ9uqJ+Ox2lB7ZRwPILbDbAhns1ZYlUEO4OrNHmi7l8dWJnqx6oah6GGdwUhd58dl4wmVVYA9UHD+66Ohs352z1HEYGRdisDQWSSBGzf+daC5/zlSb3lh0K94rBnbAdPta/vbnZS72Wg0QsxupNQ+T4CpnxAfo9XoZCfUqUShu7Ok3DeyH232m4ug==</ds:SignatureValue>
+                    <ds:KeyInfo Id="xmldsig-25873529-6b69-48e4-9c48-b619b1a14578-keyinfo">
                         <ds:X509Data>
                             <ds:X509Certificate>
                                 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</ds:X509Certificate>
@@ -137,11 +140,11 @@
                     <ds:Object>
                         <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
                             xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#"
-                            Target="#xmldsig-9ed591a9-8e6c-4780-a33f-21997d0680dc">
+                            Target="#xmldsig-5c83ba2a-8bac-44b6-aeab-70fb50c46180">
                             <xades:SignedProperties
-                                Id="xmldsig-9ed591a9-8e6c-4780-a33f-21997d0680dc-signedprops">
+                                Id="xmldsig-5c83ba2a-8bac-44b6-aeab-70fb50c46180-signedprops">
                                 <xades:SignedSignatureProperties>
-                                    <xades:SigningTime>2024-09-25T17:00:40</xades:SigningTime>
+                                    <xades:SigningTime>2024-09-25T16:51:19</xades:SigningTime>
                                     <xades:SigningCertificate>
                                         <xades:Cert>
                                             <xades:CertDigest>
@@ -192,18 +195,18 @@
     <cbc:CustomizationID>10</cbc:CustomizationID>
     <cbc:ProfileID>DIAN 2.1: Documento Equivalente POS</cbc:ProfileID>
     <cbc:ProfileExecutionID>1</cbc:ProfileExecutionID>
-    <cbc:ID>DE24250</cbc:ID>
+    <cbc:ID>DE24247</cbc:ID>
     <cbc:UUID schemeID="1" schemeName="CUDE-SHA384">
-        ee89d9a2d503a69528ba999502556c4006153515277b76fdc99b00ba0bea4342ddb370430b8b9aca492cf675ee5f75a7</cbc:UUID>
+        6bca40d060076097518839513928a5d0245fb4ff20022debe29781681e0a9ad91c54b442f48a9e9f9c745b9db864cc6c</cbc:UUID>
     <cbc:IssueDate>2024-09-25</cbc:IssueDate>
-    <cbc:IssueTime>17:00:40-05:00</cbc:IssueTime>
+    <cbc:IssueTime>16:51:19-05:00</cbc:IssueTime>
     <cbc:DueDate>2024-09-25</cbc:DueDate>
     <cbc:InvoiceTypeCode name="Factura tipo punto de venta POS">20</cbc:InvoiceTypeCode>
     <cbc:Note />
     <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
-    <cbc:LineCountNumeric>2</cbc:LineCountNumeric>
+    <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
     <cac:OrderReference>
-        <cbc:ID>Punto de venta 5 (Cajero)/26860</cbc:ID>
+        <cbc:ID>Shop1/29111</cbc:ID>
         <cbc:IssueDate>2024-09-25</cbc:IssueDate>
     </cac:OrderReference>
     <cac:AccountingSupplierParty>
@@ -336,10 +339,10 @@
         <cbc:PaymentID>1234</cbc:PaymentID>
     </cac:PaymentMeans>
     <cac:TaxTotal>
-        <cbc:TaxAmount currencyID="COP">3081.51</cbc:TaxAmount>
+        <cbc:TaxAmount currencyID="COP">8302.52</cbc:TaxAmount>
         <cac:TaxSubtotal>
-            <cbc:TaxableAmount currencyID="COP">16218.49</cbc:TaxableAmount>
-            <cbc:TaxAmount currencyID="COP">3081.51</cbc:TaxAmount>
+            <cbc:TaxableAmount currencyID="COP">43697.48</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="COP">8302.52</cbc:TaxAmount>
             <cac:TaxCategory>
                 <cbc:Percent>19.00</cbc:Percent>
                 <cac:TaxScheme>
@@ -350,23 +353,23 @@
         </cac:TaxSubtotal>
     </cac:TaxTotal>
     <cac:LegalMonetaryTotal>
-        <cbc:LineExtensionAmount currencyID="COP">16218.49</cbc:LineExtensionAmount>
-        <cbc:TaxExclusiveAmount currencyID="COP">16218.49</cbc:TaxExclusiveAmount>
-        <cbc:TaxInclusiveAmount currencyID="COP">19300.00</cbc:TaxInclusiveAmount>
+        <cbc:LineExtensionAmount currencyID="COP">43697.48</cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="COP">43697.48</cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="COP">52000.00</cbc:TaxInclusiveAmount>
         <cbc:PrepaidAmount currencyID="COP">0.00</cbc:PrepaidAmount>
-        <cbc:PayableAmount currencyID="COP">19300.00</cbc:PayableAmount>
+        <cbc:PayableAmount currencyID="COP">52000.00</cbc:PayableAmount>
     </cac:LegalMonetaryTotal>
     <cac:InvoiceLine>
         <cbc:ID>1</cbc:ID>
         <cbc:Note />
         <cbc:InvoicedQuantity unitCode="NT">1.00</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="COP">5798.32</cbc:LineExtensionAmount>
+        <cbc:LineExtensionAmount currencyID="COP">43697.48</cbc:LineExtensionAmount>
         <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
         <cac:TaxTotal>
-            <cbc:TaxAmount currencyID="COP">1101.68</cbc:TaxAmount>
+            <cbc:TaxAmount currencyID="COP">8302.52</cbc:TaxAmount>
             <cac:TaxSubtotal>
-                <cbc:TaxableAmount currencyID="COP">5798.32</cbc:TaxableAmount>
-                <cbc:TaxAmount currencyID="COP">1101.68</cbc:TaxAmount>
+                <cbc:TaxableAmount currencyID="COP">43697.48</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="COP">8302.52</cbc:TaxAmount>
                 <cac:TaxCategory>
                     <cbc:Percent>19.00</cbc:Percent>
                     <cac:TaxScheme>
@@ -377,44 +380,13 @@
             </cac:TaxSubtotal>
         </cac:TaxTotal>
         <cac:Item>
-            <cbc:Description>1223 THINNER BOTELLA</cbc:Description>
+            <cbc:Description>516 ESTUCOR CORONA 25 KG UND</cbc:Description>
             <cac:StandardItemIdentification>
                 <cbc:ID schemeAgencyID="10" schemeID="001" schemeName="UNSPSC">False</cbc:ID>
             </cac:StandardItemIdentification>
         </cac:Item>
         <cac:Price>
-            <cbc:PriceAmount currencyID="COP">6900.00</cbc:PriceAmount>
-            <cbc:BaseQuantity unitCode="NIU">1.00</cbc:BaseQuantity>
-        </cac:Price>
-    </cac:InvoiceLine>
-    <cac:InvoiceLine>
-        <cbc:ID>2</cbc:ID>
-        <cbc:Note />
-        <cbc:InvoicedQuantity unitCode="NT">1.00</cbc:InvoicedQuantity>
-        <cbc:LineExtensionAmount currencyID="COP">10420.17</cbc:LineExtensionAmount>
-        <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
-        <cac:TaxTotal>
-            <cbc:TaxAmount currencyID="COP">1979.83</cbc:TaxAmount>
-            <cac:TaxSubtotal>
-                <cbc:TaxableAmount currencyID="COP">10420.17</cbc:TaxableAmount>
-                <cbc:TaxAmount currencyID="COP">1979.83</cbc:TaxAmount>
-                <cac:TaxCategory>
-                    <cbc:Percent>19.00</cbc:Percent>
-                    <cac:TaxScheme>
-                        <cbc:ID>01</cbc:ID>
-                        <cbc:Name>IVA</cbc:Name>
-                    </cac:TaxScheme>
-                </cac:TaxCategory>
-            </cac:TaxSubtotal>
-        </cac:TaxTotal>
-        <cac:Item>
-            <cbc:Description>15 PINTURA ESMALTE NEGRO MATE PINVIACRIL 1/8</cbc:Description>
-            <cac:StandardItemIdentification>
-                <cbc:ID schemeAgencyID="10" schemeID="001" schemeName="UNSPSC">False</cbc:ID>
-            </cac:StandardItemIdentification>
-        </cac:Item>
-        <cac:Price>
-            <cbc:PriceAmount currencyID="COP">12400.00</cbc:PriceAmount>
+            <cbc:PriceAmount currencyID="COP">52000.00</cbc:PriceAmount>
             <cbc:BaseQuantity unitCode="NIU">1.00</cbc:BaseQuantity>
         </cac:Price>
     </cac:InvoiceLine>
